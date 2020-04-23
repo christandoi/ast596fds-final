@@ -17,7 +17,7 @@ Possible scientific questions:
 2) Make a model for prediction
 3) Discuss how significance the weakening trend is (or other trends in the variability)
 
-## Also interesting to add to our final writeup: history of sunspot detection, dating back from ~800BC in China (Book of Changes) to first telescopically observed sunspots in the early 1600's
+Also interesting to add to our final writeup: history of sunspot detection, dating back from ~800BC in China (Book of Changes) to first telescopically observed sunspots in the early 1600's
 
 # Statement of work:
 How do we want to accomplish this? Think about final outcome, work backwards on how to get there. What is needed at each step? Work will be done in Jupyter notebook
