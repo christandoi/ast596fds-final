@@ -8,16 +8,35 @@ Astrophysical dataset that we find interesting. Project must satisfy (at least) 
     - hierarchical Bayesian modeling
     - dealing with selection effects in data when building models
     - machine learning	
-	
+
+------------------------
+Sunspot modeling and prediction based on historical data located at https://www.ngdc.noaa.gov/stp/space-weather/solar-data/solar-indices/sunspot-numbers/american/tables/
+
+Possible scientific questions:
+1) Characterize the variability of sunspot numbers using different statistical tools
+2) Make a model for prediction
+3) Discuss how significance the weakening trend is (or other trends in the variability)
+
+## Also interesting to add to our final writeup: history of sunspot detection, dating back from ~800BC in China (Book of Changes) to first telescopically observed sunspots in the early 1600's
+
 # Statement of work:
-How do we want to accomplish this? Think about final outcome, work backwards on how to get there. What is needed at each step? Work will be done in Jupyter notebooks.
+How do we want to accomplish this? Think about final outcome, work backwards on how to get there. What is needed at each step? Work will be done in Jupyter notebook
+
+------------------------
+
+Methods:
+1) PCA analysis on different timescales, show some analysis on counting uncertainties
+2) For the predicting model: something similar to previous homeworks
+3) Use MCMC with the model to quantify significance of certain trends
+
 
 # Tasks:
+Ask Gautham if this is good enough :)
 
-## Frank Fu
+### Frank Fu
 
-## Sihan Li
+### Sihan Li
 
-## Jennifer Li
+### Jennifer Li
 
-## Chris Tandoi
+### Chris Tandoi
