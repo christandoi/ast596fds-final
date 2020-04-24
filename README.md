@@ -21,7 +21,7 @@ Also interesting to add to our final writeup: history of sunspot detection, dati
 
 Some reference images:
 
-![SIDC daily sunspot number since 1900]https://github.com/christandoi/ast596fds-final/blob/master/images/solar_cycles_since_1900.PNG
+![SIDC daily sunspot number since 1900](images/solar_cycles_since_1900.PNG)
 
 # Statement of work:
 How do we want to accomplish this? Think about final outcome, work backwards on how to get there. What is needed at each step? Work will be done in Jupyter notebook
