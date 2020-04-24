@@ -10,7 +10,9 @@ Astrophysical dataset that we find interesting. Project must satisfy (at least) 
     - machine learning	
 
 ------------------------
-Sunspot modeling and prediction based on historical data located at https://www.ngdc.noaa.gov/stp/space-weather/solar-data/solar-indices/sunspot-numbers/american/tables/
+Sunspot modeling and prediction based on historical data located at 
+- https://www.ngdc.noaa.gov/stp/space-weather/solar-data/solar-indices/sunspot-numbers/american/tables/
+- http://www.sidc.be/silso/datafiles
 
 Possible scientific questions:
 1) Characterize the variability of sunspot numbers using different statistical tools
