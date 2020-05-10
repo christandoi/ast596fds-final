@@ -37,7 +37,6 @@ Methods:
 
 
 # Tasks:
-Ask Gautham if this is good enough :)
 
 ### Frank Fu
 
@@ -46,3 +45,6 @@ Ask Gautham if this is good enough :)
 ### Jennifer Li
 
 ### Chris Tandoi
+
+-Modeling + MCMC
+-Writeup some interesting history to tantalize the audience
