@@ -46,5 +46,5 @@ Methods:
 
 ### Chris Tandoi
 
--Modeling + MCMC
--Writeup some interesting history to tantalize the audience
+- Modeling + MCMC
+- Writeup some interesting history to tantalize the audience
