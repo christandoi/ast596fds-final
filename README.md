@@ -39,6 +39,8 @@ Methods:
 # Tasks:
 
 ### Frank Fu
+- Gaussian Process regression
+
 
 ### Sihan Li
 
