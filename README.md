@@ -7,10 +7,10 @@ Astrophysical dataset that we find interesting. Project must satisfy (at least) 
 	- time-series analysis
     - hierarchical Bayesian modeling
     - dealing with selection effects in data when building models
-    - machine learning	
+    - machine learning
 
 ------------------------
-Sunspot modeling and prediction based on historical data located at 
+Sunspot modeling and prediction based on historical data located at
 - https://www.ngdc.noaa.gov/stp/space-weather/solar-data/solar-indices/sunspot-numbers/american/tables/
 - http://www.sidc.be/silso/datafiles
 
@@ -40,7 +40,10 @@ Methods:
 
 ### Frank Fu
 - Fourier Component reconstruction (nb2)
-- Gaussian Process regression (nb1)
+    - Inspired by Chris's Sinusoidal decomposition I decided to do a full Fourier domain decomposition and see if we can reasonably reconstruct the data with only the lower frequency components. The idea worked and we have some adequate predictions generated. I've tried playing with the cutoff parameter to see if it will change the prediction but the impact is quite small.
+- Gaussian Process regression on Monthly data (nb1)
+    - Solar activity is rather stochastic so a better approach to model the data is using Gaussian processes. Initially, I wasn't able to get a stable result with a flat prior. After some discussion, we decided to implement some specific priors for each of the parameters. With logP(dominates the short-term behavior) and logM(regulates the long-term variation) limited by the prior, we managed to have converged chains and a decent short-term prediction.
+    - Limited by the computing power we can only use a portion of the monthly data. I've tried using different selections of data, i.e. dense but less solar cycles vs sparse and more solar cycles and it turns out the latter one works better for prediction as it constrains more of the long term variation.
 
 ### Sihan Li
 
