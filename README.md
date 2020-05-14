@@ -37,7 +37,6 @@ Methods:
 
 
 # Tasks:
-Ask Gautham if this is good enough :)
 
 ### Frank Fu
 - Fourier Component reconstruction (nb2)
