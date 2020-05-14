@@ -45,6 +45,9 @@ Methods:
 ### Sihan Li
 
 ### Jennifer Li
+- Perform basic time analysis (Periodogram, ACF) and cross-correlation analysis on sunspot data and temperature data
+- Gaussian process regression on modeling and forecasting temperature data
+- Collect earth surface temperature data and read relevant literature on global warming and solar activity
 
 ### Chris Tandoi
 
