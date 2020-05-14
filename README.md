@@ -46,6 +46,8 @@ Methods:
     - Limited by the computing power we can only use a portion of the monthly data. I've tried using different selections of data, i.e. dense but less solar cycles vs sparse and more solar cycles and it turns out the latter one works better for prediction as it constrains more of the long term variation.
 
 ### Sihan Li
+- Regression and find the period
+- Machine Learning (Comparison and analysis)
 
 ### Jennifer Li
 - Perform basic time analysis (Periodogram, ACF) and cross-correlation analysis on sunspot data and temperature data
@@ -53,6 +55,5 @@ Methods:
 - Collect earth surface temperature data and read relevant literature on global warming and solar activity
 
 ### Chris Tandoi
-
 - Modeling + MCMC
 - Writeup some interesting history to tantalize the audience
