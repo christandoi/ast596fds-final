@@ -40,9 +40,15 @@ Methods:
 Ask Gautham if this is good enough :)
 
 ### Frank Fu
+- Fourier Component reconstruction (nb2)
+- Gaussian Process regression (nb1)
 
 ### Sihan Li
+- Regression and find the period
+- Machine Learning (Comparison and analysis)
 
 ### Jennifer Li
 
 ### Chris Tandoi
+- Modeling + MCMC
+- Writeup some interesting history to tantalize the audience
