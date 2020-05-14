@@ -39,8 +39,8 @@ Methods:
 # Tasks:
 
 ### Frank Fu
-- Gaussian Process regression
-
+- Fourier Component reconstruction (nb2)
+- Gaussian Process regression (nb1)
 
 ### Sihan Li
 
