@@ -43,6 +43,8 @@ Methods:
 - Gaussian Process regression (nb1)
 
 ### Sihan Li
+- Regression and find the period
+- Machine Learning (Comparison and analysis)
 
 ### Jennifer Li
 - Perform basic time analysis (Periodogram, ACF) and cross-correlation analysis on sunspot data and temperature data
@@ -50,6 +52,5 @@ Methods:
 - Collect earth surface temperature data and read relevant literature on global warming and solar activity
 
 ### Chris Tandoi
-
 - Modeling + MCMC
 - Writeup some interesting history to tantalize the audience
