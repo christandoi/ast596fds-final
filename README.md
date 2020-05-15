@@ -50,9 +50,12 @@ Methods:
 - Machine Learning (Comparison and analysis)
 
 ### Jennifer Li
-- Perform basic time analysis (Periodogram, ACF) and cross-correlation analysis on sunspot data and temperature data
+- Time serires analysis and cross-correlation analysis on sunspot data and temperature data:
+	I investigate the correlation between the sunspot data and temperature data. I use several different methods (Periodograms, ACF) to identify the varibility timescale in both data, which are shown in my jupyter notebook. I found a paper that claimed they have found a 3-yr lag in the cross correlation, but after multiple attempts at smoothing and massaging our data in different ways, none of our CCF shows a significant lag.
 - Gaussian process regression on modeling and forecasting temperature data
+	Initially, I wanted used Frank's Gaussian process regression model and best fit parameters to fit the temperature data. However, cross-correlation analysis showed that the two datasets only weakly correlates, and the two dataset doesn't seem like they can be fit by similar models (e.g. there's a long-term trend in temperature data). I added another kernel to model the long-term trend, and fitted the temperature data on its own. During one iteration of fitting, I successfully fitted the short-term variabiliy as well as the long-term variabiliy, but my jupyter notebook kernel died serval times this week and I couldn't reproduce the results again. The final best fit model only fits the long term trend. The MCMC converges nicely within the prior range, but the corner plots are not very smooth. I suspect this is because short-term variabiliy are not modeled properly, which might be because the prior range is not ideal for fitting short-term variabiliy.
 - Collect earth surface temperature data and read relevant literature on global warming and solar activity
+	I read the IPCC report on how temperature data is reconstructed with different evidence and their discussion on how solar activity can contribute to global temperature variation. I was planning on talking about it if we had time in the presentation.
 
 ### Chris Tandoi
 - Modeling + MCMC
