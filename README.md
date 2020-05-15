@@ -55,5 +55,16 @@ Methods:
 - Collect earth surface temperature data and read relevant literature on global warming and solar activity
 
 ### Chris Tandoi
-- Modeling + MCMC
-- Writeup some interesting history to tantalize the audience
+- MCMC modeling
+    - Tried a na\"{i}"ve approach at a basic model for sunspot numbers. The MCMC result led to an almost identical result as my initial guess, which tells me my guess parameters for my model were close to perfect, but in the end the model was very limited. More advanced techniques were the logical outcome of this, and it seemed like comparing this to an actual Fourier transform on the data would be a good next step.
+- History/intro
+    - Read up on a bunch of sunspot detection history. Really interesting stuff and I'd like to do an AoT about the sun/space weather in general. The actual science behind it might be impossibly hard but the history of all of it is super interesting.
+- Conclusion
+    - Tried to read Li He's paper. It was a math PhD thesis though so a lot of it was technical jargon and formal proofs that are wasted on my tiny brain. Finding at the conclusion that "none of this ends up working at all" was extremely validating.
+
+### Group stuff
+- Maintained a slack channel over the duration of this project to stay in communication and share info/ask for help.
+- Built up presentation over Google slides
+- Zoom meetings
+    - April 23, 2020: initial meetup to figure out what we wanted to work on, specific tasks, and how we wanted to organize everything.
+    - May 14, 2020: final meetup to consolidate all of our efforts and thoughts. Any last minute problems any individuals were facing were (attempted to be) addressed.
