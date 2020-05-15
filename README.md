@@ -56,7 +56,7 @@ Methods:
 
 ### Chris Tandoi
 - MCMC modeling
-    - Tried a na\"{i}"ve approach at a basic model for sunspot numbers. The MCMC result led to an almost identical result as my initial guess, which tells me my guess parameters for my model were close to perfect, but in the end the model was very limited. More advanced techniques were the logical outcome of this, and it seemed like comparing this to an actual Fourier transform on the data would be a good next step.
+    - Tried a naive approach at a basic model for sunspot numbers. The MCMC result led to an almost identical result as my initial guess, which tells me my guess parameters for my model were close to perfect, but in the end the model was very limited. More advanced techniques were the logical outcome of this, and it seemed like comparing this to an actual Fourier transform on the data would be a good next step.
 - History/intro
     - Read up on a bunch of sunspot detection history. Really interesting stuff and I'd like to do an AoT about the sun/space weather in general. The actual science behind it might be impossibly hard but the history of all of it is super interesting.
 - Conclusion
