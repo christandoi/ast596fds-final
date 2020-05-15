@@ -47,9 +47,15 @@ Methods:
 
 ### Sihan Li
 - Regression and find the period
+    - Foucused on the Daily sunspots number dataset. Tried to build up a linear regression model. Calulated the possible period based on the model.Tried to label the independent variable periodically.
 - Machine Learning (Comparison and analysis)
+    - Tried to ues different ML methods to predict the data. Devided the whole dataset into 67% training data and 33% testing data. Tried to compared different methods (KNN, RF, LDA). In my model for this dataset, KNN has the highest accuracy. 
+    - The expected result should be a plot of the comparison between predicted data and original data. However the codes failed at the last step. I guess, if possible, I can label the independent variable better based on its periodical feature.
 
 ### Jennifer Li
+- Perform basic time analysis (Periodogram, ACF) and cross-correlation analysis on sunspot data and temperature data
+- Gaussian process regression on modeling and forecasting temperature data
+- Collect earth surface temperature data and read relevant literature on global warming and solar activity
 - Time serires analysis and cross-correlation analysis on sunspot data and temperature data:
 	I investigate the correlation between the sunspot data and temperature data. I use several different methods (Periodograms, ACF) to identify the varibility timescale in both data, which are shown in my jupyter notebook. I found a paper that claimed they have found a 3-yr lag in the cross correlation, but after multiple attempts at smoothing and massaging our data in different ways, none of our CCF shows a significant lag.
 - Gaussian process regression on modeling and forecasting temperature data
